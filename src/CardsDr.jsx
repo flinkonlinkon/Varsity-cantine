@@ -10,16 +10,19 @@ export default function CardsDr() {
           TOKEN: <span className="text-2xl">41971</span>
         </div>
 
-        <div className="border-t border-dashed border-gray-400 my-2"></div>
-
-        <div className="space-y-1 text-sm">
-          <div className="flex justify-between">
-            <div>
+<div className='text-center'>
 
             <span className="font-medium">KITCHEN K.O.T</span>
             </div>
-            <div className="border-t border-dashed border-gray-400 my-2"></div>
-            <span>PRINT T: 02/23/2025 12:13:42 P</span>
+        <div className="border-t border-dashed border-gray-400 my-2"></div>
+
+        <div className="space-y-1 text-sm">
+          
+          <div className="">
+            
+            {/* <div className="border-t border-dashed border-gray-400 my-2"></div> */}
+            <span>PRINT T: 02/24/2025 12:13:42 P</span>
+            <div className='uppercase text-center'>Order information</div>
           </div>
 
           <div className="border-t border-dashed border-gray-400 my-2"></div>
@@ -33,7 +36,7 @@ export default function CardsDr() {
 
           <div className="grid grid-cols-2">
             <span>EGG KHICHURY</span>
-            <span className="text-right">2</span>
+            <span className="text-right">3</span>
           </div>
         </div>
       </div>
